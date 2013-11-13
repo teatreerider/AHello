@@ -16,15 +16,20 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	
 	Button btn;
-	TextView tv;
+	Button btnEvent2;
+	Button btnEvent3;
+	Button btnEvent5;
+	Button btnFreeLine;
+	Button btnDraw;
+	
 	LinearLayout ll;
+	
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
 
-		
 		btn = new Button(this);
-		btn.setText("MecuCheck");
+		btn.setText("MenuCheck");
 		btn.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -34,13 +39,69 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		tv = new TextView(this);
-		tv.setText("Press menu.");
+		btnEvent2= new Button(this);
+		btnEvent2.setText("Event02");
+		btnEvent2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, Event02.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnEvent3 = new Button(this);
+		btnEvent3.setText("Event03");
+		btnEvent3.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, Event03.class);
+				startActivity(intent);
+			}
+		});
+		
+	
+		btnEvent5 = new Button(this);
+		btnEvent5.setText("Event05");
+		btnEvent5.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, Event05.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnFreeLine = new Button(this);
+		btnFreeLine.setText("FreeLine");
+		btnFreeLine.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, FreeLine.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnDraw = new Button(this);
+		btnDraw.setText("DrawUndoRedo");
+		btnDraw.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, Draw.class);
+				startActivity(intent);
+			}
+		});
+		
 		
 		ll = new LinearLayout(this);
 		ll.setOrientation(LinearLayout.VERTICAL);
 		ll.addView(btn);
-		ll.addView(tv);
+		ll.addView(btnEvent2);
+		ll.addView(btnEvent3);
+		ll.addView(btnEvent5);
+		ll.addView(btnFreeLine);
+		ll.addView(btnDraw);
 		
 		setContentView(ll);
 	}

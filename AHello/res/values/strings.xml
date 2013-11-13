@@ -5,5 +5,11 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_menu_check">MenuCheck</string>
+    <string name="title_activity_event02">Event02</string>
+    <string name="title_activity_event03">Event03</string>
+    <string name="title_activity_event05">Event05</string>
+    <string name="title_activity_free_line">FreeLine</string>
+    <string name="title_activity_paint_undo_redo">PaintUndoRedo</string>
+    <string name="title_activity_draw">Draw</string>
 
 </resources>

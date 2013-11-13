@@ -26,6 +26,30 @@
             android:name="com.example.ahello.MenuCheck"
             android:label="@string/title_activity_menu_check" >
         </activity>
+        <activity
+            android:name="com.example.ahello.Event02"
+            android:label="@string/title_activity_event02" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.Event03"
+            android:label="@string/title_activity_event03" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.Event05"
+            android:label="@string/title_activity_event05" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.FreeLine"
+            android:label="@string/title_activity_free_line" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.PaintUndoRedo"
+            android:label="@string/title_activity_paint_undo_redo" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.Draw"
+            android:label="@string/title_activity_draw" >
+        </activity>
     </application>
 
 </manifest>

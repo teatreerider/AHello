@@ -24,35 +24,56 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
-        public static final int bigfont=0x7f080004;
-        public static final int blue=0x7f080008;
-        public static final int button=0x7f080000;
-        public static final int checkable_group=0x7f080003;
-        public static final int exclusive_checkable_group=0x7f080005;
-        public static final int green=0x7f080007;
-        public static final int jjajang=0x7f080009;
-        public static final int jjambbong=0x7f08000a;
-        public static final int mandoo=0x7f08000c;
-        public static final int red=0x7f080006;
-        public static final int submenu=0x7f080002;
-        public static final int udong=0x7f08000b;
+        public static final int action_settings=0x7f080003;
+        public static final int bigfont=0x7f080006;
+        public static final int blue=0x7f08000a;
+        public static final int button1=0x7f080002;
+        public static final int button2=0x7f080001;
+        public static final int checkable_group=0x7f080005;
+        public static final int exclusive_checkable_group=0x7f080007;
+        public static final int green=0x7f080009;
+        public static final int jjajang=0x7f08000b;
+        public static final int jjambbong=0x7f08000c;
+        public static final int main_frame=0x7f080000;
+        public static final int mandoo=0x7f08000e;
+        public static final int red=0x7f080008;
+        public static final int submenu=0x7f080004;
+        public static final int udong=0x7f08000d;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_menu_check=0x7f030001;
+        public static final int activity_draw=0x7f030000;
+        public static final int activity_event02=0x7f030001;
+        public static final int activity_event03=0x7f030002;
+        public static final int activity_event05=0x7f030003;
+        public static final int activity_free_line=0x7f030004;
+        public static final int activity_main=0x7f030005;
+        public static final int activity_menu_check=0x7f030006;
+        public static final int activity_paint_undo_redo=0x7f030007;
+        public static final int main=0x7f030008;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
-        public static final int menu_check=0x7f070001;
-        public static final int menucheck=0x7f070002;
-        public static final int optionmenu=0x7f070003;
+        public static final int draw=0x7f070000;
+        public static final int event02=0x7f070001;
+        public static final int event03=0x7f070002;
+        public static final int event05=0x7f070003;
+        public static final int free_line=0x7f070004;
+        public static final int main=0x7f070005;
+        public static final int menu_check=0x7f070006;
+        public static final int menucheck=0x7f070007;
+        public static final int optionmenu=0x7f070008;
+        public static final int paint_undo_redo=0x7f070009;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050002;
+        public static final int title_activity_draw=0x7f050009;
+        public static final int title_activity_event02=0x7f050004;
+        public static final int title_activity_event03=0x7f050005;
+        public static final int title_activity_event05=0x7f050006;
+        public static final int title_activity_free_line=0x7f050007;
         public static final int title_activity_menu_check=0x7f050003;
+        public static final int title_activity_paint_undo_redo=0x7f050008;
     }
     public static final class style {
         /** 

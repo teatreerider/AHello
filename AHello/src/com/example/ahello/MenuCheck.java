@@ -17,7 +17,7 @@ public class MenuCheck extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu_check);
-		mbtn = (Button) findViewById(R.id.button);
+		mbtn = new Button(this);
 	}
 
 	@Override
