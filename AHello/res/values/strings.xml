@@ -11,5 +11,10 @@
     <string name="title_activity_free_line">FreeLine</string>
     <string name="title_activity_paint_undo_redo">PaintUndoRedo</string>
     <string name="title_activity_draw">Draw</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="title_activity_list_from_array">ListFromArray</string>
+    <string name="title_activity_list_attr">ListAttr</string>
+    <string name="title_activity_list_add_del01">ListAddDel01</string>
+    <string name="title_activity_over_scroll">OverScroll</string>
 
 </resources>

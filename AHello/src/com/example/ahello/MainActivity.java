@@ -21,7 +21,8 @@ public class MainActivity extends Activity {
 	Button btnEvent5;
 	Button btnFreeLine;
 	Button btnDraw;
-	
+	Button btnListAddDel;
+	Button btnOverScroll;
 	LinearLayout ll;
 	
 	public void onCreate(Bundle savedInstanceState) {
@@ -93,6 +94,29 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+		btnListAddDel = new Button(this);
+		btnListAddDel.setText("ListAddDell");
+		btnListAddDel.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, ListAddDel01.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnOverScroll = new Button(this);
+		btnOverScroll.setText("OverScroll");
+		btnOverScroll.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, OverScroll.class);
+				startActivity(intent);
+				
+			}
+		});
+		
 		
 		ll = new LinearLayout(this);
 		ll.setOrientation(LinearLayout.VERTICAL);
@@ -102,6 +126,8 @@ public class MainActivity extends Activity {
 		ll.addView(btnEvent5);
 		ll.addView(btnFreeLine);
 		ll.addView(btnDraw);
+		ll.addView(btnListAddDel);
+		ll.addView(btnOverScroll);
 		
 		setContentView(ll);
 	}
