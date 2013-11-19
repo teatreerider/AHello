@@ -1,4 +1,4 @@
-package com.example.ahello;
+package com.example.ahello; // 깃 하자 
 
 import android.app.Activity;
 import android.content.Intent;
