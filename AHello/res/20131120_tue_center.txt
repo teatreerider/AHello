@@ -1,0 +1,24 @@
+20131120 wed center
+
+what i learned
+
+GridView 01
+ 3개의 이미지 번갈아가며 사용해서 그리드에 출력하기
+
+GridView02 
+  내 폰의 리소스로 그리드에 나타내기
+
+Gallery
+  내 폰의 리소스로 갤러리에 나타내기
+
+prograss
+
+
+
+http://165.194.18.158/java/ImageAdapter.png
+http://165.194.18.158/java/galleryexam.xml.png
+http://165.194.18.158/java/galleryexam.java.png
+
+http://olc.oss.kr/mypage/lec_offlec_list.jsp
+
+숙제: 아날로그 시계 만들기
