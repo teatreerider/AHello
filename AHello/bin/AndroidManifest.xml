@@ -70,6 +70,22 @@
             android:name="com.example.ahello.OverScroll"
             android:label="@string/title_activity_over_scroll" >
         </activity>
+        <activity
+            android:name="com.example.ahello.GridTest01"
+            android:label="@string/title_activity_grid_test01" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.GalleryTest01"
+            android:label="@string/title_activity_gallery_test01" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.GridTest02"
+            android:label="@string/title_activity_grid_test01" >
+        </activity>
+        <activity
+            android:name="com.example.ahello.RatingBarTest01"
+            android:label="@string/title_activity_rating_bar_test01" >
+        </activity>
     </application>
 
 </manifest>

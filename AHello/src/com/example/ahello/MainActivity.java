@@ -23,6 +23,9 @@ public class MainActivity extends Activity {
 	Button btnDraw;
 	Button btnListAddDel;
 	Button btnOverScroll;
+	Button btnGridTest01;
+	Button btnGridTest02;
+	Button btnRatingBar01;
 	LinearLayout ll;
 	
 	public void onCreate(Bundle savedInstanceState) {
@@ -117,6 +120,39 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+		btnGridTest01 = new Button(this);
+		btnGridTest01.setText("GridTest01");
+		btnGridTest01.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, GridTest01.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnGridTest02 = new Button(this);
+		btnGridTest02.setText("GridTest02");
+		btnGridTest02.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, GridTest02.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnRatingBar01 = new Button(this);
+		btnRatingBar01.setText("RatingBar");
+		btnRatingBar01.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, RatingBarTest01.class);
+				startActivity(intent);
+			}
+		});
+		
 		
 		ll = new LinearLayout(this);
 		ll.setOrientation(LinearLayout.VERTICAL);
@@ -128,6 +164,10 @@ public class MainActivity extends Activity {
 		ll.addView(btnDraw);
 		ll.addView(btnListAddDel);
 		ll.addView(btnOverScroll);
+		ll.addView(btnGridTest01);
+		ll.addView(btnGridTest02);
+		ll.addView(btnRatingBar01);
+		
 		
 		setContentView(ll);
 	}

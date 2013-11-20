@@ -16,5 +16,8 @@
     <string name="title_activity_list_attr">ListAttr</string>
     <string name="title_activity_list_add_del01">ListAddDel01</string>
     <string name="title_activity_over_scroll">OverScroll</string>
+    <string name="title_activity_grid_test01">GridTest01</string>
+    <string name="title_activity_gallery_test01">GalleryTest01</string>
+    <string name="title_activity_rating_bar_test01">RatingBarTest01</string>
 
 </resources>

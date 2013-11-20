@@ -30,33 +30,40 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int cameron01=0x7f020000;
+        public static final int hojun01=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000c;
-        public static final int add=0x7f090001;
-        public static final int bigfont=0x7f09000f;
-        public static final int blue=0x7f090013;
-        public static final int btn10=0x7f090005;
-        public static final int btn3=0x7f090004;
-        public static final int btnalways=0x7f090006;
-        public static final int btnifscroll=0x7f090008;
-        public static final int btnnever=0x7f090007;
-        public static final int button1=0x7f09000b;
-        public static final int button2=0x7f09000a;
-        public static final int checkable_group=0x7f09000e;
-        public static final int delete=0x7f090002;
-        public static final int exclusive_checkable_group=0x7f090010;
-        public static final int green=0x7f090012;
-        public static final int jjajang=0x7f090014;
-        public static final int jjambbong=0x7f090015;
-        public static final int list=0x7f090003;
-        public static final int main_frame=0x7f090009;
-        public static final int mandoo=0x7f090017;
-        public static final int newitem=0x7f090000;
-        public static final int red=0x7f090011;
-        public static final int submenu=0x7f09000d;
-        public static final int udong=0x7f090016;
+        public static final int action_settings=0x7f090011;
+        public static final int add=0x7f090004;
+        public static final int bigfont=0x7f090014;
+        public static final int blue=0x7f090018;
+        public static final int btn10=0x7f090008;
+        public static final int btn3=0x7f090007;
+        public static final int btnalways=0x7f090009;
+        public static final int btnifscroll=0x7f09000b;
+        public static final int btnnever=0x7f09000a;
+        public static final int button1=0x7f090010;
+        public static final int button2=0x7f09000f;
+        public static final int checkable_group=0x7f090013;
+        public static final int delete=0x7f090005;
+        public static final int exclusive_checkable_group=0x7f090015;
+        public static final int gallery=0x7f090001;
+        public static final int green=0x7f090017;
+        public static final int grid=0x7f090002;
+        public static final int img=0x7f090000;
+        public static final int jjajang=0x7f090019;
+        public static final int jjambbong=0x7f09001a;
+        public static final int list=0x7f090006;
+        public static final int main_frame=0x7f09000e;
+        public static final int mandoo=0x7f09001c;
+        public static final int newitem=0x7f090003;
+        public static final int ratetext=0x7f09000d;
+        public static final int ratingbar=0x7f09000c;
+        public static final int red=0x7f090016;
+        public static final int submenu=0x7f090012;
+        public static final int udong=0x7f09001b;
     }
     public static final class layout {
         public static final int activity_draw=0x7f030000;
@@ -64,15 +71,18 @@ public final class R {
         public static final int activity_event03=0x7f030002;
         public static final int activity_event05=0x7f030003;
         public static final int activity_free_line=0x7f030004;
-        public static final int activity_list_add_del01=0x7f030005;
-        public static final int activity_list_attr=0x7f030006;
-        public static final int activity_list_from_array=0x7f030007;
-        public static final int activity_list_view=0x7f030008;
-        public static final int activity_main=0x7f030009;
-        public static final int activity_menu_check=0x7f03000a;
-        public static final int activity_over_scroll=0x7f03000b;
-        public static final int activity_paint_undo_redo=0x7f03000c;
-        public static final int main=0x7f03000d;
+        public static final int activity_gallery_test01=0x7f030005;
+        public static final int activity_grid_test01=0x7f030006;
+        public static final int activity_list_add_del01=0x7f030007;
+        public static final int activity_list_attr=0x7f030008;
+        public static final int activity_list_from_array=0x7f030009;
+        public static final int activity_list_view=0x7f03000a;
+        public static final int activity_main=0x7f03000b;
+        public static final int activity_menu_check=0x7f03000c;
+        public static final int activity_over_scroll=0x7f03000d;
+        public static final int activity_paint_undo_redo=0x7f03000e;
+        public static final int activity_rating_bar_test01=0x7f03000f;
+        public static final int main=0x7f030010;
     }
     public static final class menu {
         public static final int draw=0x7f080000;
@@ -80,16 +90,19 @@ public final class R {
         public static final int event03=0x7f080002;
         public static final int event05=0x7f080003;
         public static final int free_line=0x7f080004;
-        public static final int list_add_del01=0x7f080005;
-        public static final int list_attr=0x7f080006;
-        public static final int list_from_array=0x7f080007;
-        public static final int list_view=0x7f080008;
-        public static final int main=0x7f080009;
-        public static final int menu_check=0x7f08000a;
-        public static final int menucheck=0x7f08000b;
-        public static final int optionmenu=0x7f08000c;
-        public static final int over_scroll=0x7f08000d;
-        public static final int paint_undo_redo=0x7f08000e;
+        public static final int gallery_test01=0x7f080005;
+        public static final int grid_test01=0x7f080006;
+        public static final int list_add_del01=0x7f080007;
+        public static final int list_attr=0x7f080008;
+        public static final int list_from_array=0x7f080009;
+        public static final int list_view=0x7f08000a;
+        public static final int main=0x7f08000b;
+        public static final int menu_check=0x7f08000c;
+        public static final int menucheck=0x7f08000d;
+        public static final int optionmenu=0x7f08000e;
+        public static final int over_scroll=0x7f08000f;
+        public static final int paint_undo_redo=0x7f080010;
+        public static final int rating_bar_test01=0x7f080011;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
@@ -100,6 +113,8 @@ public final class R {
         public static final int title_activity_event03=0x7f060005;
         public static final int title_activity_event05=0x7f060006;
         public static final int title_activity_free_line=0x7f060007;
+        public static final int title_activity_gallery_test01=0x7f060010;
+        public static final int title_activity_grid_test01=0x7f06000f;
         public static final int title_activity_list_add_del01=0x7f06000d;
         public static final int title_activity_list_attr=0x7f06000c;
         public static final int title_activity_list_from_array=0x7f06000b;
@@ -107,6 +122,7 @@ public final class R {
         public static final int title_activity_menu_check=0x7f060003;
         public static final int title_activity_over_scroll=0x7f06000e;
         public static final int title_activity_paint_undo_redo=0x7f060008;
+        public static final int title_activity_rating_bar_test01=0x7f060011;
     }
     public static final class style {
         /** 
